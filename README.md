@@ -67,6 +67,8 @@ class Greeting extends React.Component {
 Greeting.propTypes = {
   name: PropTypes.string
 };
+
+// Instalación en Vite: yarn add prop-types
 ```
 ## Imports & Exports
 Para exportar se puede hacer directamente en la variable o al final del archivo indicando la variable en específico, además se puede agregar la palabra especial "default", la cual permite que por defecto se exporte eso y cuando se importe ese archivo se puede agregar cualquier palabra para asginarse a lo importado.
